@@ -1,0 +1,28 @@
+.item{
+    // background-color: green;
+    height: 200px;
+    // width: 200px;
+    display: grid;
+    text-align: center;
+
+    .content{
+        justify-self: center;
+        margin-top: 0;
+        border: 1px solid black;
+        height: 150px;
+        width: 150px;
+    }
+    img{
+        scale: 0.7;
+        margin-top: 0px;
+    }
+    h3{
+        // margin: -50px;
+        font-size: 20px;
+    }
+}
+
+.owl-carousel{
+    width: 95%;
+    margin: auto;
+}
